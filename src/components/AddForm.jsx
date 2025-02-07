@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { addTodo } from "../redux/slices/todoSlice";
+import { addTodo } from "../redux/modules/todos";
 import { useState } from "react";
 import styled from "styled-components";
 const StFormContainer = styled.div`
