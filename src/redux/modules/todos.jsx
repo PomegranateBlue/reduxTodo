@@ -7,7 +7,7 @@ export const addTodo = (payload) => {
 export const deleteTodo = (payload) => {
   return { type: DELETE_TODO, payload };
 };
-//Action 정의의
+//Action 정의
 const initialState = {
   todos: [
     {
