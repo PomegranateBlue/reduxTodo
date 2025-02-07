@@ -3,7 +3,7 @@ const ADD_TODO = "ADD_TODO";
 export const addTodo = (payload) => {
   return { type: ADD_TODO, payload };
 };
-
+//Action 정의의
 const initialState = {
   todos: [
     {
@@ -12,6 +12,8 @@ const initialState = {
     },
   ],
 };
+
+//Reducer 정의의
 const todos = (state = initialState, action) => {
   switch (action.type) {
     case ADD_TODO:

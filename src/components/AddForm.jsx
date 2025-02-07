@@ -31,7 +31,7 @@ const StInput = styled.input`
 const AddForm = () => {
   const [title, setTitle] = useState("");
   const dispatch = useDispatch();
-
+  //dispatch로 전달
   const onSubmitHandler = (e) => {
     e.preventDefault();
     if (title === "") return;
